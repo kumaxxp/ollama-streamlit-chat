@@ -72,7 +72,7 @@ echo "終了するには Ctrl+C を押してください"
 echo "=" * 50
 
 # Streamlit起動
-streamlit run simple_chat.py \
+streamlit run app/simple_chat.py \
     --server.port 8501 \
     --server.address localhost \
     --browser.gatherUsageStats false
